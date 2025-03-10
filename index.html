@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijith Panicker - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #1f4037, #251c1a);
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+        }
+        .btn-custom {
+            margin: 10px;
+            border-radius: 30px;
+            padding: 12px 25px;
+            font-weight: bold;
+        }
+        .section {
+            margin-top: 40px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            text-align: left;
+            transition: all 0.3s ease-in-out;
+        }
+        .section:hover {
+            transform: scale(1.03);
+        }
+        h2 {
+            color: #fff;
+            font-size: 26px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #fff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        ul li::before {
+            content: '\2022';
+            color: #fff;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <img src="https://source.unsplash.com/400x400/?technology,coding" alt="Backend Developer" class="profile-img"> -->
+
+        <!-- <img src="profile.jpg" alt="Profile Picture" class="profile-img"> -->
+        <h1>Abhijith Panicker</h1>
+        <p style="font-size: 20px; font-weight: 500;">Backend Engineer | System Design | API Architect | Scalable Infrastructure</p>
+        <div>
+            <a href="https://drive.google.com/file/d/1Vy7OIycwiE_G-MpuO3lazg3t4XxtV8Qw/view?usp=drive_link" class="btn btn-light btn-custom" target="_blank">Download CV</a>
+            <a href="https://www.linkedin.com/in/abhijithsanthosh" class="btn btn-info btn-custom" target="_blank">LinkedIn</a>
+            <a href="https://github.com/abhijith-santhosh-dev" class="btn btn-dark btn-custom" target="_blank">GitHub</a>
+        </div>
+        
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Experienced backend developer specializing in high-performance web applications, API development, and database optimization. Passionate about crafting scalable solutions, implementing secure authentication, and improving system efficiency.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Backend: PHP (Laravel, CodeIgniter), Node.js, Express.js</li>
+                <li>APIs: RESTful APIs, GraphQL, WebSockets</li>
+                <li>Databases: MySQL, PostgreSQL, MongoDB, Redis</li>
+                <li>Security: OAuth, JWT, Laravel Sanctum</li>
+                <li>Cloud & Hosting: Microsoft Azure, AWS, DigitalOcean</li>
+                <li>Performance Optimization: Database indexing, Query optimization, Caching strategies</li>
+                <li>Payment Gateway Integration: Stripe, PayPal, Razorpay </li>
+                <li>Third-Party Integrations: Twilio (SMS, Voice, WhatsApp), Firebase, Google Maps API</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Work Experience</h2>
+            <h5>Backend Engineer - Agaze Technologies, Bangalore (June 2023 - Aug 2024)</h5>
+            <ul>
+                <li>Architected scalable backend systems, improving API response time by 30%.</li>
+                <li>Optimized MySQL and PostgreSQL queries, reducing database load and enhancing efficiency.</li>
+                <li>Integrated secure payment gateways such as Stripe and PayPal.</li>
+                <li>Developed and maintained RESTful APIs with Laravel and Node.js.</li>
+                <li>Implemented Redis caching and database indexing for performance improvement.</li>
+            </ul>
+            
+            <h5>PHP Developer - V4C Solutions Pvt. Ltd, Kerala (Aug 2024 - Dec)</h5>
+            <ul>
+                <li>Engineered high-performance web applications using Laravel, ensuring scalability, security, and maintainability.</li>  
+                <li>Optimized complex SQL queries and database architecture, enhancing API response time by 35% and improving system efficiency.</li>  
+                <li>Designed and implemented secure role-based access control (RBAC) with JWT authentication, strengthening user authorization workflows.</li>  
+
+            </ul>
+            
+            <h5>Node.js Intern - Brototype, Kochi</h5>
+            <ul>
+                <li>Developed and deployed Node.js-based RESTful APIs.</li>
+                <li>Worked with MongoDB and PostgreSQL to optimize database queries and improve performance.</li>
+                <li>Utilized Redis for caching to reduce API latency by 25%.</li>
+                <li>Implemented WebSocket-based real-time notifications and chat features.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-item">
+                    <h4>💬 Real-time Chat Application</h4>
+                    <p>Engineered a high-performance chat system using <strong>WebSockets</strong> and <strong>Redis</strong>, ensuring seamless real-time communication with low-latency message delivery and efficient session management.</p>
+                </div>
+            
+                <div class="project-item">
+                    <h4>🛒 E-commerce Backend</h4>
+                    <p>Designed and integrated secure payment solutions with <strong>Stripe</strong> and <strong>PayPal</strong>, enabling seamless transactions while ensuring compliance with industry security standards such as <strong>PCI-DSS</strong>.</p>
+                </div>
+            
+                <div class="project-item">
+                    <h4>🚀 Scalable API Service</h4>
+                    <p>Optimized database indexing and query execution strategies, improving API response times by <strong>35%</strong> and enhancing system efficiency. Implemented <strong>caching mechanisms</strong> to support high-traffic loads.</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:abhijithsanthosh101@gmail.com" style="color: black; font-weight: bold;">abhijithsanthosh101@gmail.com</a></p>
+
+            <!-- <p>Email: <a href="mailto:abhijithsanthosh101@gmail.com">abhijithsanthosh101@gmail.com</a></p> -->
+            <p>Phone: +91 9656381244</p>
+            <p>Location: Kochi, Kerala</p>
+        </div>
+    </div>
+</body>
+</html>
